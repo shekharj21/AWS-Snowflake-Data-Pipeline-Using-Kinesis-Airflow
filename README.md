@@ -23,4 +23,4 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
     cloud watch Event Full Access
 5. role name : pwsnowflakerole
 6. create
-![DE Infra](/assets/images/Screenshot (474).png)
+![Screenshot (474)](https://github.com/shekharj21/AWS-Snowflake-Data-Pipeline-Using-Kinesis-Airflow/assets/54074505/413f9f92-c0bc-4c58-8702-81ea7b447bcf)
