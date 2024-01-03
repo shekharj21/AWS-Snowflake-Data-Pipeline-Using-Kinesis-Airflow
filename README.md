@@ -8,6 +8,8 @@ AWS Tools Used
 5. Kinesis Agent
 6. AWS Mangaged Airflow
 
+
+'''shell
 We need to create the IAM policy because we are going to use EC2 instance further ddown the road in the project where we need to assign IAM policy to it.
 
 ---Click IAM in all service
@@ -21,3 +23,4 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
     4. cloud watch Event Full Access
 ---- role name : pwsnowflakerole
 ---- create
+'''
