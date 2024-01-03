@@ -23,4 +23,4 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
     cloud watch Event Full Access
 5. role name : pwsnowflakerole
 6. create
-(/assets/Screenshot (474).png)
+![DE Infra](/assets/images/Screenshot (474).png)
