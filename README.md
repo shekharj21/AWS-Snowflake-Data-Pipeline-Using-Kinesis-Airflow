@@ -42,3 +42,10 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
 3. load the prm key pair
 4. save Private Key
 5. name the new PPK file
+6. now open the putty
+7. copy Public IPv4 DNS and paste it in host name (make sure to add 'ec2-user@' before copying the address.
+8. click on SSH on left category
+9. click on auth
+10. click on credential
+11. click on private authentication and browsw the PPK generated file
+12. click open
