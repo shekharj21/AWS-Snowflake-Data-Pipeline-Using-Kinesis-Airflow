@@ -49,3 +49,5 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
 10. click on credential
 11. click on private authentication and browsw the PPK generated file
 12. click open
+
+![Screenshot (475)](https://github.com/shekharj21/shekharj21/assets/54074505/14c5bc56-8690-49b2-99d2-268ed41dcc02)
