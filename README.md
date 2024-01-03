@@ -35,3 +35,10 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
 7. Select and name key pair with .pem file
 8. In Advanced setting, select IAM instance profile to the name given in IAM roles : pwsnowflakerole
 9. Launch Instance
+
+## SSH Connection :
+1. Open Putty Key generator.
+2. click file and load private key
+3. load the prm key pair
+4. save Private Key
+5. name the new PPK file
