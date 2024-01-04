@@ -51,3 +51,22 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
 12. click open
 
 ![Screenshot (475)](https://github.com/shekharj21/shekharj21/assets/54074505/14c5bc56-8690-49b2-99d2-268ed41dcc02)
+
+## Create Kinesis Firehose :
+1. select kinesis firehose and create delivery stream.
+2. we need 2 delivery streams as we have 2 datasets customers and orders.
+
+### First Delivery Stream (Customers):
+3. choose source as direct put and destination as S3.
+4. Delivery Stream Name : CustomerData
+5. choose S3 Bucket which we created : snowflakedatapipelinepw
+6. set bucket prefix : firehose/customers/landing
+7. Set Error Prefix : firehose/error/customers
+
+### Second Delivery Stream (Orders):
+8. name : Orders_data
+9. choose S3 Bucket which we created : snowflakedatapipelinepw
+10. set bucket prefix : firehose/orders/landing
+11. Set Error Prefix : firehose/error/orders
+
+![Screenshot (476)](https://github.com/shekharj21/shekharj21/assets/54074505/f5072cba-0c4b-4c86-84a8-d1b99f02c934)
