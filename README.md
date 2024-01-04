@@ -70,3 +70,17 @@ We need to create the IAM policy because we are going to use EC2 instance furthe
 11. Set Error Prefix : firehose/error/orders
 
 ![Screenshot (476)](https://github.com/shekharj21/shekharj21/assets/54074505/f5072cba-0c4b-4c86-84a8-d1b99f02c934)
+
+
+## Installing kinesis Agent and sending data to firehose :
+1. kinesis agent will help us to send the data from EC2 machine to firehose.
+2. open putty
+3. type the coomand :  sudo yum install -y aws-kinesis-agent
+4. cd /etc
+5. cd aws-kinesis
+6. ls (will see agent.json) which will help us configure the delivery stream
+7. open it : sudo vi agent.json and press i to edit firehose.endpoint
+8. modify the file as given below
+
+![Screenshot (478)](https://github.com/shekharj21/shekharj21/assets/54074505/d29cf61d-c482-4117-a51c-2313efcdfcda)
+
